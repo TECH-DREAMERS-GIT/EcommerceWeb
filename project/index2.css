@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #1f242d;
+    flex-wrap: wrap;
+}
+div a li {
+    list-style-type: none;
+    text-align: center;
+    box-shadow: 0.5px 0.1px 3px 0.5px white;;
+}
+div a li img{
+    border-radius: 10px ;
+}
+#about{
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-wrap: wrap;
+}
