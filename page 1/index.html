@@ -1,158 +1,217 @@
 <!DOCTYPE html>
-<!-- Website - www.codingnepalweb.com -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Filterable Image Gallery Bootstrap | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Images Filter Buttons Section -->
-      <div class="row mt-5" id="filter-buttons">
-        <div class="col-12">
-            <button class="btn mb-2 me-1 active" data-filter="Official Store">Official Store</button>
-            <button class="btn mb-2 mx-1" data-filter="Phone">Phone & Tablet</button>
-            <button class="btn mb-2 mx-1" data-filter="Home">Home& Tablet</button>
-            <button class="btn mb-2 mx-1" data-filter="Fashion">Fashion</button>
-            <button class="btn mb-2 me-1 active" data-filter="Baby Care">Baby Fashion</button>
-        </div>
-      </div>
+<html lang="en">
 
-      <!-- Filterable Images / Cards Section -->
-      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
-        <div class="card p-0" data-name="Phone">
-          <img src="phone1.webp" alt="img">
-          <div class="card-body">
-            <h6 class="card-title">Tecno 12 pro</h6>
-            <p class="card-text">Black coated Ram 2gb Rom 64gb</p>
-            <p>price 12300/ksh</p>
-            <p>was<strike> price 12400/ksh</strike></p>
-            <p><b><strike>discount 100</strike></b></p>
-          </div>
-        </div>
-        <div class="card p-0" data-name="Home">
-          <img src="home1.webp" alt="img">
-          <div class="card-body">
-            <h6 class="card-title">Chair Furshd </h6>
-            <p class="card-text">Lorem ipsum dolor..</p>
-            <p>price 1200/ksh</p>
-            <p>was <strike> price 1300/ksh</strike></p>
-            <p><b><strike>discount 100</strike></b></p>
-          </div>
-        </div>
-        <div class="card p-0" data-name="Fashion">
-          <img src="fashion1.webp" alt="img">
-          <div class="card-body">
-            <h6 class="card-title">lady prodown</h6>
-            <p class="card-text">Lorem ipsum dolor..</p>
-            <p>price 1300/ksh</p>
-            <p>was<strike> price 1400/ksh</strike></p>
-            <p><b><strike>discount 100</strike></b></p>
-          </div>
-        </div>
-        <div class="card p-0" data-name="Baby Care">
-          <img src="baby1.jpeg" alt="img">
-          <div class="card-body">
-            <h6 class="card-title">Retro</h6>
-            <p class="card-text">Lorem ipsum dolor..</p>
-            <p>price 1500/ksh</p>
-            <p>was <strike> price 2000/ksh</strike></p>
-            <p><b><strike>discount 500</strike></b></p>
-          </div>
-        </div>
-        <div class="row px-2 mt-4 gap-3" id="filterable-cards">
-            <div class="card p-0" data-name="Phone">
-              <img src="phone2.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">Iphone 14 pro</h6>
-                <p class="card-text">Black coated Ram 4gb Rom 128gb</p>
-                <p>price 120000/ksh</p>
-                <p>was<strike> price 130000/ksh</strike></p>
-                <p><b><strike>discount 10000</strike></b></p>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fody Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <section id="tranding">
+      <div class="container">
+        <h3 class="text-center section-subheading">- popular Delivery -</h3>
+        <h1 class="text-center section-heading">Tranding food</h1>
+      </div>
+      <div class="container">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="baby4.jpeg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$20</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Special Pizza
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
-            <div class="card p-0" data-name="Home">
-              <img src="home2.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">three leggged chair </h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 1700/ksh</p>
-                <p>was <strike> price 2000/ksh</strike></p>
-                <p><b><strike>discount 300</strike></b></p>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="fashion4.jpeg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$20</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Meat Ball
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
-            <div class="card p-0" data-name="Fashion">
-              <img src="fashion2.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">Black Leather coart</h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 1500/ksh</p>
-                <p>was<strike> price 2000/ksh</strike></p>
-                <p><b><strike>discount 500</strike></b></p>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="home3.webp" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$40</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Burger
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
-            <div class="card p-0" data-name="Baby Care">
-              <img src="baby2.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">little Eagle</h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 1400/ksh</p>
-                <p>was <strike> price 1800/ksh</strike></p>
-                <p><b><strike>discount 400</strike></b></p>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="safety3.webp" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$15</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Frish Curry
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
-        
-        </div>
-        <div class="row px-2 mt-4 gap-3" id="filterable-cards">
-            <div class="card p-0" data-name="Phone">
-              <img src="phone3.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">Samsung Galaxy</h6>
-                <p class="card-text">Black coated Ram 8gb Rom 256gb</p>
-                <p>price 117000/ksh</p>
-                <p>was<strike> price 118000/ksh</strike></p>
-                <p><b><strike>discount 1000</strike></b></p>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="baby2.webp" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$15</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Pane Cake
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
-            <div class="card p-0" data-name="Home">
-              <img src="home3.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">Dinning Chairs </h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 14500/ksh</p>
-                <p>was <strike> price 15000/ksh</strike></p>
-                <p><b><strike>discount 500</strike></b></p>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="fashion1.webp" alt="Tranding">
               </div>
-            </div>
-            <div class="card p-0" data-name="Fashion">
-              <img src="fashion3.webp" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">lady white wear</h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 1600/ksh</p>
-                <p>was<strike> price 2300/ksh</strike></p>
-                <p><b><strike>discount 700</strike></b></p>
-              </div>
-            </div>
-            <div class="card p-0" data-name="Baby Care">
-              <img src="baby3.jpeg" alt="img">
-              <div class="card-body">
-                <h6 class="card-title">baby wear</h6>
-                <p class="card-text">Lorem ipsum dolor..</p>
-                <p>price 2200/ksh</p>
-                <p>was <strike> price 2300/ksh</strike></p>
-                <p><b><strike>discount 100</strike></b></p>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$20</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Vanilla cake
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
               </div>
             </div>
             
-      </div>
-     
-        
-    </div>
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="home2.webp" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="food-price">$8</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="food-name">
+                    Straw Cake
+                  </h2>
+                  <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+           
+          </div>
 
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non blanditiis pariatur magni magnam, incidunt dolor commodi libero rerum fuga provident eum eius, veritatis fugit quisquam distinctio porro possimus? Sed, modi.</p>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
+
 </html>
